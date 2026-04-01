@@ -1,8 +1,8 @@
-#include<stdlib.h>
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 
-int main(){
-	printf("Ola Mundo!");
+int main(int argc, char* argv[]){
+	printf("Ola %s!", argv[1]);
 	
 	return 0;
 }
